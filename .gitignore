@@ -16,7 +16,6 @@
 *.old
 *.log
 *.sql
-*.txt
 !robots.txt
 *.xml
 *.dt
