@@ -1,0 +1,60 @@
+.gitattributes merge=ours
+.gitignore merge=ours
+# Общие настройки, 
+* text=auto
+*.php text eol=lf
+*.html text eol=lf
+*.js text eol=lf
+*.json text eol=lf
+*.css text eol=lf
+*.sql text eol=lf
+*.txt text eol=lf
+*.log text eol=lf
+
+# Documents
+*.doc diff=astextplain
+*.DOC diff=astextplain
+*.docx diff=astextplain
+*.DOCX diff=astextplain
+*.dot diff=astextplain
+*.DOT diff=astextplain
+*.pdf diff=astextplain
+*.PDF diff=astextplain
+*.rtf diff=astextplain
+*.RTF diff=astextplain
+*.md text
+*.tex text
+*.adoc text
+*.textile text
+*.mustache text
+*.csv text
+*.tab text
+*.tsv text
+*.sql text
+
+# Graphics
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.tif binary
+*.tiff binary
+*.ico binary
+*.ttf binary
+*.woff binary
+*.woff2 binary
+*.otf binary
+*.eot binary
+# SVG по дефолту рассматривается как бинарный.
+*.svg binary
+#*.svg text
+*.eps binary
+*.psd binary
+*.xd binary
+
+#
+# Исключить файлы из экспорта
+#
+
+.gitattributes export-ignore
+.gitignore export-ignore

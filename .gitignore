@@ -1,0 +1,34 @@
+# All site (git + sftp + htaccess)
+/sftp-config.json
+/vendor/
+/node_modules/
+/test_log/
+*.lock
+*-lock.json
+
+# All site (universal extensions)
+*.tar.gz
+*.tar
+*.gz
+*.bak
+*.zip
+*.bz2
+*.old
+*.log
+*.sql
+*.txt
+!robots.txt
+*.xml
+*.dt
+*.db
+*.ini
+*~
+test/*
+
+# All (universal folder)
+
+# custom
+*.min.js
+*.min.js.map
+*.min.css
+*.min.css.map

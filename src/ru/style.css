@@ -1,0 +1,136 @@
+body {
+    /*background-color: #b56e75;*/
+    background: linear-gradient(145deg, #464646 279px, #d5cbe2 280px, #a37c7f 281px, #845e61 40%, #633f41 100%);
+    color: #d5cbe2;
+}
+
+header {
+    position: relative;
+}
+
+.over-header-background {
+    position: absolute;
+    height: 166px;
+    width: 100%;
+    background-image: linear-gradient(90deg, #464646 0px, #464646 251.4px, rgba(0, 0, 0, .0) 251.4px, rgba(0, 0, 0, .0)), linear-gradient(to bottom, #464646 0px, #464646 calc(100% - 1px), #d5cbe2 1px);
+}
+
+main {
+    min-height: 700px;
+}
+
+.over-footer-background {
+    margin-top: -700px;
+    height: 700px;
+    width: 100%;
+    background-image: url(images/333.png);
+    background-position: right bottom;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+a,
+a:active,
+a:visited {
+    /*background-color: #d5cbe2;*/
+    /*color: #76306f;*/
+    color: #b56e75;
+}
+
+a:focus,
+a:hover {
+    color: #76306f;
+}
+
+.select-language__button,
+.select-language__button:hover,
+.select-language__button:focus,
+.select-language__button:active {
+    box-shadow: unset;
+    outline: unset;
+    border-color: #dee2e6 #dee2e6 #fff;
+    border-radius: 0.25rem;
+    min-width: 10rem;
+    background-color: #d5cbe2;
+    color: #b56e75;
+}
+
+.dropdown-menu {
+    background-color: #d5cbe2;
+    border-color: #dee2e6 #dee2e6 #fff;
+    border-radius: 0.25rem;
+
+}
+
+.dropdown-item {
+    color: #b56e75;
+}
+
+.dropdown-item:hover {
+    background-color: #b56e75;
+    border-color: #dee2e6 #dee2e6 #fff;
+    border-radius: 0.25rem;
+    outline: unset;
+    box-shadow: unset;
+    color: #d5cbe2;
+}
+
+.nav-tabs {
+    border-bottom: 1px solid #d5cbe2;
+}
+
+
+.nav-tabs .nav-item .nav-link:hover {
+    background-color: #b56e75;
+    color: #d5cbe2;
+}
+
+.nav-tabs .nav-item .nav-link {
+    color: #d5cbe2;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    color: #b56e75;
+    background-color: #d5cbe2;
+    border-color: #dee2e6 #fff;
+}
+
+.select-language__contain {
+    margin-bottom: 2.4rem;
+}
+
+.nav-item {
+    /*background-color: #d5cbe2;*/
+}
+
+/**
+ * expression
+ */
+
+.accordion {
+    box-shadow: 75px 230px 15px 50px rgba(0, 0, 0, .6);
+    border: unset;
+    background-color: rgba(0, 0, 0, .0);
+    background-image: linear-gradient(145deg, rgba(255, 255, 255, .0) 0px, rgba(0, 0, 0, .0) 30px, #464646 31px, #464646 calc(100% - 31px), rgba(0, 0, 0, .6) calc(100% - 30px), rgba(0, 0, 0, .6));
+    color: #d5cbe2;
+}
+
+.card {
+    background-color: unset;
+    border: unset;
+}
+
+.card:hover {
+    opacity: 0.9;
+}
+
+.card-header {
+    background-color: unset;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.card:last-child .card-header {
+    border-bottom: unset;
+}
